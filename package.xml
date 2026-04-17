@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>runge_kutta</name>
+  <version>0.0.1</version>
+  <description>Header-only templated classical RK4 integrator for ROS1 (Noetic), with a demo node, launch file, and gtest suite.</description>
+
+  <maintainer email="furkan.sariyildiz@adastec.com">furkan</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>gtest</test_depend>
+
+  <export>
+  </export>
+</package>

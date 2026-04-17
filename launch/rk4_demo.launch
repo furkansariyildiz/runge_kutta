@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="runge_kutta" type="rk4_demo_node" name="rk4_demo_node" output="screen">
+    <rosparam command="load" file="$(find runge_kutta)/config/rk4_demo.yaml" />
+  </node>
+</launch>
